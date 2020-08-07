@@ -39,15 +39,14 @@ The system will initially be built around the following existing tokens;
 
 | From            | USDT@telos | EOSDT@telos | TLOSD@telos | TLOSM@telos | USDT@eos  | EOSDT@eos |
 | --------------- |:----------:|:-----------:|:-----------:|:-----------:|:---------:|:---------:|
-| **USDT@telos**  |            | X           | X           | !           | X         |  X        |
-| **EOSDT@telos** | X          |             | X           | !           | X         |  X        |
+| **USDT@telos**  |            | X           | X           | X           | X         |  X        |
+| **EOSDT@telos** | X          |             | X           | X           | X         |  X        |
 | **TLOSD@telos** | X          | X           |             | X           |           |           |
-| **TLOSM@telos** | !          | !           | X           |             |           |           |
-| **USDT@eos**    | X          | X           | X           | !           |           |           |
-| **EOSDT@eos**   | X          | X           | X           | !           |           |           |
+| **TLOSM@telos** | X          | X           | X           |             |           |           |
+| **USDT@eos**    | X          | X           | X           | X           |           |           |
+| **EOSDT@eos**   | X          | X           | X           | X           |           |           |
 
 * (X) - Supported
-* (!) - Planned
 
 ### Memo formats
 
