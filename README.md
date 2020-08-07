@@ -4,8 +4,19 @@
 
 TLOSD is a Telos USD stable coin backed by a pool of tokens from successful USD stablecoin projects. This repository contains to result of work carried out under the [Telos USD Stable Token](https://chainspector.io/governance/telos-works/5a2g1zy5r3vq) Telos Works proposal.
 
+## Design
+
+The system comprises four contracts;
+* EOS Bridge - A bridge contract running on the EOS blockchain
+* Telos Bridge - A bridge contract running on the EOS blockchain
+* Token contract - The standard eosio.token contract, used for all wrapped and proxy tokens on the Telos blockchain.
+* Swaps contract - A low price slippage token exchange contract with extensions to support the (USD stable) TLOSD and TLOSM (liquidity) tokens.
 
 ## System setup
+
+The system will initially be built around the following existing tokens;
+* [USDT](https://bloks.io/tokens/USDT-eos-tethertether) - USD Tether on EOS
+* [EOSDT](https://bloks.io/tokens/EOSDT-eos-eosdtsttoken)
 
 ### Telos tokens
 
