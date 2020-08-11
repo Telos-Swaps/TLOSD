@@ -85,22 +85,27 @@ The system will initially be built around the following existing tokens;
 
 | Description         | Mainnet      | Testnet      | Local node   |
 |:------------------- | ------------:| ------------:|:------------:|
-| Namespace           |        swaps |        swaps |        swaps |
-| Admin               |  admin.swaps |  admin.swaps |  admin.swaps |
-| &nbsp;              |              |              |              |
 | **Telos**           |              |              |              |
-| Bridge              | ???????????? | issuer.swaps | ???????????? |
-| TLOSD Swaps         |  tlosd.swaps |        swaps |              |
-| TLOSD issuer        |  tlosd.swaps |        swaps |              |
-| TLOSM issuer        |  tlosd.swaps |        swaps |              |
+| Namespace           |        swaps |        swaps |        swaps |
+| Telos admin         |  admin.swaps |  admin.swaps |  admin.swaps |
 | &nbsp;              |              |              |              |
-| Pegged tokens       | tokens.swaps |    usd.swaps |              |
-| Pegged token issuer | ???????????? | issuer.swaps | ???????????? |
+| Bridge              |    telosd.io | issuer.swaps |    telosd.io |
+| TLOSD Swaps         |  tlosd.swaps |        swaps |  tlosd.swaps |
+| TLOSD issuer        |  tlosd.swaps |        swaps |  tlosd.swaps |
+| TLOSM issuer        |  tlosd.swaps |        swaps |  tlosd.swaps |
+| &nbsp;              |              |              |              |
+| Pegged tokens       | tokens.swaps |    usd.swaps | tokens.swaps |
+| Pegged token issuer |    telosd.io | issuer.swaps |    telosd.io |
+| &nbsp;              |              |              |              |
+| UI onchain config   | config.swaps |              | config.swaps |
 | &nbsp;              |              |              |              |
 | **EOS**             |              |              |              |
-| Bridge              | ???????????? |    eos.swaps |    eos.swaps |
-| USDT                | tethertether |   usdt.swaps |   usdt.swaps |
-| EOSDT               | eosdtsttoken |  eosdt.swaps |  eosdt.swaps |
+| EOS admin           | telosdcpunet |  admin.swaps | telosdcpunet |
+| &nbsp;              |              |              |              |
+| Bridge              |    telosd.io |    eos.swaps |    telosd.io |
+| &nbsp;              |              |              |              |
+| USDT                | tethertether |   usdt.swaps | tethertether |
+| EOSDT               | eosdtsttoken |  eosdt.swaps | eosdtsttoken |
 
 * "swaps" is the namespace owner. Using it as the swaps contract prevents the creation of new *.swaps accounts.
 
