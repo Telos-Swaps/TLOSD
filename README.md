@@ -88,7 +88,6 @@ The system will initially be built around the following existing tokens;
 | **Telos**            |              |               |              |
 | Namespace            |        swaps |         swaps |        swaps |
 | Telos admin          |  admin.swaps |   admin.swaps |  admin.swaps |
-| Config               | config.swaps |  config.swaps | config.swaps |
 | &nbsp;               |              |               |              |
 | Bridge               |    telosd.io |     telosd.io |    telosd.io |
 | TLOSD swaps          | telosd.swaps |  telosd.swaps | telosd.swaps |
