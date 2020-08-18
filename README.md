@@ -83,29 +83,30 @@ The system will initially be built around the following existing tokens;
 
 ### Summary of accounts
 
-| Description         | Mainnet      | Testnet       | Local node   |
-|:------------------- | ------------:| -------------:|:------------:|
-| **Telos**           |              |               |              |
-| Namespace           |        swaps |         swaps |        swaps |
-| Telos admin         |  admin.swaps |   admin.swaps |  admin.swaps |
-| &nbsp;              |              |               |              |
-| Bridge              |    telosd.io |     telosd.io |    telosd.io |
-| TLOSD Swaps         | telosd.swaps |  telosd.swaps | telosd.swaps |
-| TLOSD issuer        | telosd.swaps |  telosd.swaps | telosd.swaps |
-| TLOSM issuer        | telosd.swaps |  telosd.swaps | telosd.swaps |
-| &nbsp;              |              |               |              |
-| Pegged tokens       | tokens.swaps |  tokens.swaps | tokens.swaps |
-| Pegged token issuer |    telosd.io |     telosd.io |    telosd.io |
-| &nbsp;              |              |               |              |
-| UI onchain config   | config.swaps |  config.swaps | config.swaps |
-| &nbsp;              |              |               |              |
-| **EOS**             |              |               |              |
-| EOS admin           | telosdcpunet |   admin.swaps | telosdcpunet |
-| &nbsp;              |              |               |              |
-| Bridge              |    telosd.io |  tlosd.eos.io |    telosd.io |
-| &nbsp;              |              |               |              |
-| USDT                | tethertether |  tethertether | tethertether |
-| EOSDT               | eosdtsttoken |  eosdtsttoken | eosdtsttoken |
+| Description          | Mainnet      | Testnet       | Local node   |
+|:-------------------- | ------------:| -------------:|:------------:|
+| **Telos**            |              |               |              |
+| Namespace            |        swaps |         swaps |        swaps |
+| Telos admin          |  admin.swaps |   admin.swaps |  admin.swaps |
+| Config               | config.swaps |  config.swaps | config.swaps |
+| &nbsp;               |              |               |              |
+| Bridge               |    telosd.io |     telosd.io |    telosd.io |
+| TLOSD swaps          | telosd.swaps |  telosd.swaps | telosd.swaps |
+| TLOSD issuer         | telosd.swaps |  telosd.swaps | telosd.swaps |
+| TLOSM issuer         | telosd.swaps |  telosd.swaps | telosd.swaps |
+| &nbsp;               |              |               |              |
+| Wrapped tokens       | tokens.swaps |  tokens.swaps | tokens.swaps |
+| Wrapped token issuer |    telosd.io |     telosd.io |    telosd.io |
+| &nbsp;               |              |               |              |
+| UI onchain config    | config.swaps |  config.swaps | config.swaps |
+| &nbsp;               |              |               |              |
+| **EOS**              |              |               |              |
+| EOS admin            | telosdcpunet |   admin.swaps | telosdcpunet |
+| &nbsp;               |              |               |              |
+| Bridge               |    telosd.io |  tlosd.eos.io |    telosd.io |
+| &nbsp;               |              |               |              |
+| USDT                 | tethertether |  tethertether | tethertether |
+| EOSDT                | eosdtsttoken |  eosdtsttoken | eosdtsttoken |
 
 * "swaps" is the namespace owner. Using it as the swaps contract prevents the creation of new *.swaps accounts.
 
