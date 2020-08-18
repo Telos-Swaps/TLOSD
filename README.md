@@ -107,5 +107,5 @@ The system will initially be built around the following existing tokens;
 | USDT                 | tethertether |  tethertether | tethertether |
 | EOSDT                | eosdtsttoken |  eosdtsttoken | eosdtsttoken |
 
-* "swaps" is the namespace owner. Using it as the swaps contract prevents the creation of new *.swaps accounts.
+* "swaps" is the namespace owner. Using it as the swaps contract prevents the creation of unauthorised *.swaps accounts.
 
